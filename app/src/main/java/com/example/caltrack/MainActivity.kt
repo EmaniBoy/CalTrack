@@ -14,6 +14,8 @@ import com.example.caltrack.ui.bmi.BmiActivity
 import com.example.caltrack.ui.meals.MealLoggingActivity
 import com.example.caltrack.ui.profile.ProfileActivity
 import com.example.caltrack.ui.progress.ProgressActivity
+import com.example.caltrack.ui.setupCalTrackToolbar
+import com.google.android.material.appbar.MaterialToolbar
 import com.google.android.material.button.MaterialButton
 
 class MainActivity : AppCompatActivity() {
@@ -30,6 +32,10 @@ class MainActivity : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
+
+        val toolbar = findViewById<MaterialToolbar>(R.id.toolbar)
+        setupCalTrackToolbar(toolbar, R.string.app_name, showNavigateUp = false)
+        toolbar.subtitle = getString(R.string.dashboard_title)
 
         findViewById<MaterialButton>(R.id.button_meals).setOnClickListener {
             startActivity(Intent(this, MealLoggingActivity::class.java))
