@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1459423309",
+    "project_id": "caltrack-c981d",
+    "storage_bucket": "caltrack-c981d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1459423309:android:4bf9336e20bfaed5e97404",
+        "android_client_info": {
+          "package_name": "com.example.caltrack"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIvJOkKboql6saqyxA8NttAIJi_BVZjQg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

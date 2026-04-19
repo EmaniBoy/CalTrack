@@ -2,4 +2,17 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <!-- Fitness Palette -->
+    <color name="colorPrimary">#4CAF50</color> <!-- Healthy Green -->
+    <color name="colorPrimaryVariant">#388E3C</color>
+    <color name="colorSecondary">#FF9800</color> <!-- Energetic Orange -->
+
+    <color name="calories_color">#4CAF50</color>
+    <color name="protein_color">#2196F3</color>
+    <color name="carbs_color">#FFC107</color>
+    <color name="fat_color">#F44336</color>
+
+    <color name="surface_variant">#F5F5F5</color>
+    <color name="text_secondary">#757575</color>
 </resources>

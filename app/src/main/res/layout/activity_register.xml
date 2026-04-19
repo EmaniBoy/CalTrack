@@ -8,17 +8,11 @@
     android:gravity="center"
     android:background="?android:colorBackground">
 
-    <ImageView
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:src="@mipmap/ic_launcher"
-        android:layout_marginBottom="16dp"/>
-
     <TextView
-        android:id="@+id/tvTitle"
+        android:id="@+id/tvRegisterTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Welcome to CalTrack"
+        android:text="Create Account"
         android:textSize="28sp"
         android:textStyle="bold"
         android:textColor="?attr/colorPrimary"
@@ -31,7 +25,7 @@
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/etEmail"
+            android:id="@+id/etRegisterEmail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Email"
@@ -46,7 +40,7 @@
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/etPassword"
+            android:id="@+id/etRegisterPassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Password"
@@ -54,18 +48,18 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <Button
-        android:id="@+id/btnLogin"
+        android:id="@+id/btnRegisterSubmit"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Login"
+        android:text="Sign Up"
         android:padding="12dp"
         android:layout_marginBottom="8dp"/>
 
     <Button
-        android:id="@+id/btnRegister"
+        android:id="@+id/btnLoginRedirect"
         style="@style/Widget.MaterialComponents.Button.TextButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Don't have an account? Sign Up"/>
+        android:text="Already have an account? Login"/>
 
 </LinearLayout>
