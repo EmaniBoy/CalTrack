@@ -15,7 +15,12 @@
     <string name="main_open_bmi">BMI calculation</string>
     <string name="dashboard_title">Dashboard</string>
     <string name="dashboard_card_title">Today</string>
-    <string name="dashboard_quick_actions">Quick actions</string>
+    <string name="dashboard_more_title">More</string>
+    <string name="dashboard_nav_hint">Use the bar below to switch between Home, Meals, Progress, and Profile.</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_meals">Meals</string>
+    <string name="nav_progress">Progress</string>
+    <string name="nav_profile">Profile</string>
     <string name="dashboard_summary_initial">Loading summary…</string>
     <string name="dashboard_calorie_no_goal">Today: %1$d kcal logged. Set a daily goal in Profile &amp; goals to see what is left.</string>
     <string name="dashboard_calorie_with_goal">Today: %1$d / %2$d kcal · %3$d kcal remaining</string>
@@ -53,4 +58,22 @@
     <string name="meal_error_food_required">Enter a food name.</string>
     <string name="meal_error_calories_invalid">Enter a valid calorie amount (0 or greater).</string>
     <string name="meal_error_macros_invalid">Macros must be valid numbers (0 or greater), or left blank for 0.</string>
+    <string name="auth_intro">Sign in to continue.</string>
+    <string name="auth_register_title">Sign up</string>
+    <string name="auth_register_intro">Create an account with your email and a password (at least 6 characters).</string>
+    <string name="auth_hint_email">Email</string>
+    <string name="auth_hint_password">Password</string>
+    <string name="auth_hint_confirm">Confirm password</string>
+    <string name="auth_login">Log in</string>
+    <string name="auth_create_account">Create account</string>
+    <string name="auth_no_account">Don\'t have an account? Sign up</string>
+    <string name="auth_have_account">Already have an account? Log in</string>
+    <string name="auth_error_blank">Enter email and password.</string>
+    <string name="auth_error_register_blank">Enter email, password, and confirmation.</string>
+    <string name="auth_error_invalid_email">Enter a valid email address.</string>
+    <string name="auth_error_login_failed">Incorrect email or password.</string>
+    <string name="auth_error_password_weak">Password must be at least 6 characters.</string>
+    <string name="auth_error_password_mismatch">Passwords do not match.</string>
+    <string name="auth_error_email_taken">That email is already registered.</string>
+    <string name="auth_local_note">Accounts are stored on this device for now. Add Firebase later to sync across devices.</string>
 </resources>
