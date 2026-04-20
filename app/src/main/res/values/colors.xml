@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="brand_primary">#FF6B57</color>
+    <color name="brand_on_primary">#FFFFFFFF</color>
+    <color name="brand_primary_container">#FFDCD4</color>
+    <color name="brand_on_primary_container">#4A160E</color>
+    <color name="brand_secondary">#2A9D8F</color>
+    <color name="brand_on_secondary">#FFFFFF</color>
+    <color name="brand_tertiary">#F4B740</color>
+    <color name="brand_on_tertiary">#3D2500</color>
+
+    <color name="brand_surface">#FFF9F3</color>
+    <color name="brand_on_surface">#221A16</color>
+    <color name="brand_surface_variant">#F6EADF</color>
+    <color name="brand_outline">#C7B6A8</color>
+    <color name="brand_scrim">#99000000</color>
+
+    <color name="brand_bg_start">#FFF2E9</color>
+    <color name="brand_bg_end">#F0FFF8</color>
+    <color name="brand_auth_bg_start">#FFE7E1</color>
+    <color name="brand_auth_bg_end">#FFF6E5</color>
+
+    <color name="brand_hero_start">#FF7D66</color>
+    <color name="brand_hero_end">#FFB26F</color>
+    <color name="brand_hero_alt_start">#249A8B</color>
+    <color name="brand_hero_alt_end">#7ED8CA</color>
+
+    <color name="brand_card_tint">#F9EFE5</color>
+    <color name="brand_badge_bg">#FFE8CF</color>
+    <color name="brand_badge_text">#6B3A08</color>
+</resources>

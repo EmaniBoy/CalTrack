@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="screen_padding_horizontal">20dp</dimen>
+    <dimen name="spacing_xs">6dp</dimen>
+    <dimen name="spacing_sm">10dp</dimen>
+    <dimen name="spacing_md">14dp</dimen>
+    <dimen name="spacing_lg">20dp</dimen>
+    <dimen name="spacing_xl">28dp</dimen>
+    <dimen name="radius_sm">12dp</dimen>
+    <dimen name="radius_md">18dp</dimen>
+    <dimen name="radius_lg">26dp</dimen>
+    <dimen name="card_elevation">4dp</dimen>
+</resources>

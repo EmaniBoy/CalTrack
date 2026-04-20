@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="brand_primary">#FF8C7D</color>
+    <color name="brand_on_primary">#40140E</color>
+    <color name="brand_primary_container">#663229</color>
+    <color name="brand_on_primary_container">#FFE0D9</color>
+    <color name="brand_secondary">#4EC0B1</color>
+    <color name="brand_on_secondary">#0E3631</color>
+    <color name="brand_tertiary">#FFD078</color>
+    <color name="brand_on_tertiary">#473100</color>
+
+    <color name="brand_surface">#1E1714</color>
+    <color name="brand_on_surface">#F7E9DD</color>
+    <color name="brand_surface_variant">#2A221D</color>
+    <color name="brand_outline">#7A675A</color>
+    <color name="brand_scrim">#BF000000</color>
+
+    <color name="brand_bg_start">#231A16</color>
+    <color name="brand_bg_end">#1A2A27</color>
+    <color name="brand_auth_bg_start">#2C1D1A</color>
+    <color name="brand_auth_bg_end">#2A2517</color>
+
+    <color name="brand_hero_start">#A04536</color>
+    <color name="brand_hero_end">#A06A2E</color>
+    <color name="brand_hero_alt_start">#1C6F66</color>
+    <color name="brand_hero_alt_end">#2F8F81</color>
+
+    <color name="brand_card_tint">#2D231E</color>
+    <color name="brand_badge_bg">#4B3522</color>
+    <color name="brand_badge_text">#FFD9B6</color>
+</resources>
